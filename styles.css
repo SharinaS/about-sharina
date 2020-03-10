@@ -1,4 +1,10 @@
-/* head.masthead inspired by CodePen Pen by Henry Schmeding at https://codepen.io/htschmed/pen/RMEEzM */
+/* Portions of this page inspired by a CodePen Pen by Henry Schmeding at https://codepen.io/htschmed/pen/RMEEzM */
+h1 {
+  background-color:whitesmoke;
+  opacity: 0.4;
+  padding: 4rem, 3rem;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -50,17 +56,23 @@ header.masthead h1 {
   }
 }
 
-.link-button, .link-button:visited {
-  text-decoration: none;
-  background-color: silver;
-  color: black;
-  border-radius: 10px;
-  padding: 0.5em 0.5em;
-  cursor: pointer;
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
-.link-button:hover, .link-button:active {
-  background-color: white;
-  color: black;
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
   text-decoration: none;
 }
